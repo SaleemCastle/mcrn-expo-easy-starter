@@ -11,6 +11,47 @@ export const sampleObject2 = {
   lastName: 'Doe',
 };
 
-const dummyData = { sampleObject1, sampleObject2 };
+export const Playlists = [
+  {
+    id: '001',
+    name: 'Stargrovers',
+    songs: 20,
+    thumbnail: require('Assets/images/sample-music-cover.png')
+  },
+  {
+    id: '002',
+    name: 'So it goes',
+    songs: 5,
+    thumbnail: require('Assets/images/sample-music-cover-2.png')
+  },
+  {
+    id: '003',
+    name: 'Another 1',
+    songs: 1,
+    thumbnail: require('Assets/images/sample-music-cover-3.png')
+  }
+]
+
+export const Favorite = [
+  {
+    id: '001',
+    url: '',
+    title: 'Holy (feat. Chance the Rapper)',
+    album: 'Great Album',
+    artist: 'Justin Bieber',
+    thumbnail: require('Assets/images/song-cover.png')  
+  },
+  {
+    id: '002',
+    url: '',
+    title: 'King & Queen',
+    album: 'Imagine Album',
+    artist: 'Ava Max',
+    thumbnail: require('Assets/images/song-cover.png')  
+  },
+
+]
+
+const dummyData = { Playlists, Favorite };
 
 export default dummyData;

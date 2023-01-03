@@ -12,8 +12,8 @@ export default function AppNavigator() {
   return (
     <NavigationContainer theme={theme.mode === 'dark' ? darkTheme : lightTheme}>
       {/* Use TabStacks or Stacks below to display the bottom tabs or not */}
-      {/* <Stacks /> */}
-      <TabStacks />
+      <Stacks />
+      {/* <TabStacks /> */}
     </NavigationContainer>
   );
 }
